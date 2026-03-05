@@ -1,14 +1,13 @@
-public class Diamond {
-    public static void main(String[] args) {
-         int n = 4 ; 
-      
 
-    for(int i = 1 ; i<= n ; i++){
+public class DoubleNumberPyramid {
+    public static void main(String[] args) {
+        int n = 4 ;
+         for(int i = 1 ; i<= n ; i++){
         for(int j = 1 ; j<=n-i;j++){
            System.out.print(" ");
         }
         for(int k = 1 ; k<=i;k++){
-             System.out.print("* ");
+             System.out.print(k+" ");
         }
        System.out.println();
  }
@@ -17,7 +16,7 @@ public class Diamond {
             System.out.print(" ");
         }
         for(int k = 1 ; k<=i;k++){
-             System.out.print("* ");
+             System.out.print(k+" ");
         }
         System.out.println();
     }
